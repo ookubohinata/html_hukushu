@@ -1,0 +1,18 @@
+.wrapper{
+    min-height: 100vh;
+    /* 位置決定 */
+    position: relative;
+    padding-bottom: 126px;
+    box-sizing: border-box;
+}
+/* footerの装飾 */
+footer{
+    width: 100%;
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+    padding: 10px 0px;
+/* 位置決定 */
+    position: absolute;
+    bottom: 0;
+}
