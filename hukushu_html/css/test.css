@@ -294,6 +294,42 @@ color: rgb(0, 150, 48);
   line-height:20px;
 }
 /* contact フォームエリア */
+.form_box{
+  display: flex;
+  justify-content: center;
+  width: 640px;
+  margin: auto;
+  margin-top: 70px;
+}
+.formbox2{
+  display:flex;
+  align-items: center;
+  margin: 0 0 30px;
+}
+.form_info{
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 243px;
+  width: 230px;
+  margin: 0 24px 0 0;
+  text-align: right;
+  font-weight: bold;
+}
+.form_parts{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 388px;
+  border-radius: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.form_submit{
+  text-align: center;
+  border: none;
+    width: 298px;
+    padding: 18px 0;
+    font-size: 1.8rem;
+}
 
 /* footerの装飾 */
 footer{
